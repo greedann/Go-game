@@ -1,0 +1,1041 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6255",
+          "message": {
+            "text": "Функция _alloca сообщает об ошибке, вызывая исключение переполнения стека.  Попробуйте вместо этого использовать _malloca."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Downloads/conio2.cpp"
+                },
+                "region": {
+                  "startLine": 418,
+                  "startColumn": 21,
+                  "endLine": 418,
+                  "endColumn": 70
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "gettext",
+                  "decoratedName": "gettext",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Чтение недопустимых данных из \"buf\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Downloads/conio2.cpp"
+                },
+                "region": {
+                  "startLine": 426,
+                  "startColumn": 4,
+                  "endLine": 426,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "gettext",
+                  "decoratedName": "gettext",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 414,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 415,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 416,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 416,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 417,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 418,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "\"buf\" является массивом размером 0 байт"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 420,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 420,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 421,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 421,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 422,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 422,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 423,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 423,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 424,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "\"buf\" является аргументом ввода-вывода для \"ReadConsoleOutputA\" (объявлено в c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\um\\consoleapi2.h: 426)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 425,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 425,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в этот цикл (предполагается \"<условие ветви>\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 426,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 427,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 425,
+                            "startColumn": 59
+                          }
+                        },
+                        "message": {
+                          "text": "\"i\" может быть равно 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 425,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "Продолжить этот цикл (предполагается \"<условие ветви>\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 426,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "Недопустимая операция чтения из \"buf\" (за пределами доступного для чтения диапазона)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"*\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"*\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Downloads/conio2.cpp"
+                },
+                "region": {
+                  "startLine": 418,
+                  "startColumn": 29,
+                  "endLine": 418,
+                  "endColumn": 65
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "gettext",
+                  "decoratedName": "gettext",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Downloads/conio2.cpp"
+                },
+                "region": {
+                  "startLine": 418,
+                  "startColumn": 29,
+                  "endLine": 418,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "gettext",
+                  "decoratedName": "gettext",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Downloads/conio2.cpp"
+                },
+                "region": {
+                  "startLine": 418,
+                  "startColumn": 29,
+                  "endLine": 418,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "gettext",
+                  "decoratedName": "gettext",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6255",
+          "message": {
+            "text": "Функция _alloca сообщает об ошибке, вызывая исключение переполнения стека.  Попробуйте вместо этого использовать _malloca."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Downloads/conio2.cpp"
+                },
+                "region": {
+                  "startLine": 436,
+                  "startColumn": 16,
+                  "endLine": 436,
+                  "endColumn": 65
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "movetext",
+                  "decoratedName": "movetext",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"*\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"*\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Downloads/conio2.cpp"
+                },
+                "region": {
+                  "startLine": 436,
+                  "startColumn": 24,
+                  "endLine": 436,
+                  "endColumn": 65
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "movetext",
+                  "decoratedName": "movetext",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"*\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"*\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Downloads/conio2.cpp"
+                },
+                "region": {
+                  "startLine": 436,
+                  "startColumn": 24,
+                  "endLine": 436,
+                  "endColumn": 60
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "movetext",
+                  "decoratedName": "movetext",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Downloads/conio2.cpp"
+                },
+                "region": {
+                  "startLine": 436,
+                  "startColumn": 24,
+                  "endLine": 436,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "movetext",
+                  "decoratedName": "movetext",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Downloads/conio2.cpp"
+                },
+                "region": {
+                  "startLine": 436,
+                  "startColumn": 24,
+                  "endLine": 436,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "movetext",
+                  "decoratedName": "movetext",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6255",
+          "message": {
+            "text": "Функция _alloca сообщает об ошибке, вызывая исключение переполнения стека.  Попробуйте вместо этого использовать _malloca."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Downloads/conio2.cpp"
+                },
+                "region": {
+                  "startLine": 449,
+                  "startColumn": 21,
+                  "endLine": 449,
+                  "endColumn": 70
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "puttext",
+                  "decoratedName": "puttext",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Переполнение буфера при записи в \"buf\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Downloads/conio2.cpp"
+                },
+                "region": {
+                  "startLine": 451,
+                  "startColumn": 3,
+                  "endLine": 451,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "puttext",
+                  "decoratedName": "puttext",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 445,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 446,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 447,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 447,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 448,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 449,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "\"buf\" является массивом размером 0 байт"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 450,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 450,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в этот цикл (предполагается \"<условие ветви>\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 451,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 452,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 450,
+                            "startColumn": 59
+                          }
+                        },
+                        "message": {
+                          "text": "\"i\" может быть равно 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 450,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "Продолжить этот цикл (предполагается \"<условие ветви>\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Downloads/conio2.cpp"
+                          },
+                          "region": {
+                            "startLine": 451,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "Недопустимая операция записи в \"buf\" (за пределами доступного для записи диапазона)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"*\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"*\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Downloads/conio2.cpp"
+                },
+                "region": {
+                  "startLine": 449,
+                  "startColumn": 29,
+                  "endLine": 449,
+                  "endColumn": 65
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "puttext",
+                  "decoratedName": "puttext",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Downloads/conio2.cpp"
+                },
+                "region": {
+                  "startLine": 449,
+                  "startColumn": 29,
+                  "endLine": 449,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "puttext",
+                  "decoratedName": "puttext",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Downloads/conio2.cpp"
+                },
+                "region": {
+                  "startLine": 449,
+                  "startColumn": 29,
+                  "endLine": 449,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "puttext",
+                  "decoratedName": "puttext",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31933.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/Downloads/conio2.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "6590be845dcc8438c3e390337d06d1e5005f48f226a98a71efdd5f610ec653ab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/downloads/conio2.h"
+          },
+          "hashes": {
+            "sha-256": "544156d299788d47085e7af573cf4a23a57ba3c85f2eefa2e0251cc528bf0ab6"
+          }
+        }
+      ]
+    }
+  ]
+}
