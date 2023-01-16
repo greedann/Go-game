@@ -1,4 +1,0 @@
-﻿  main.cpp
-D:\Desktop\pg\PP\my project\Project 1\Project 1\main.cpp(116,49): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
-D:\Desktop\pg\PP\my project\Project 1\Project 1\main.cpp(346,16): warning C4477: "fscanf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "2" имеет тип "int *"
-  Project 1.vcxproj -> D:\Desktop\pg\PP\my project\Project 1\x64\Debug\Project 1.exe
